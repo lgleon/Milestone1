@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+
+
+
+/*---------------------------navigation------------------------------*/
+
+.navbar {
+  font-family: "Exo", sans-serif;
+  font-size: 22px;
+}
+
+.navbar-inverse {
+  background-color: #e5e5e5;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #fafafa;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #fff;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: #e5e5e5;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #0000ff;
+}
+
+.navbar-inverse .navbar-brand {
+  color: rgba(0, 0, 255, 1);
+  font-family: "Exo", sans-serif;
+  letter-spacing: normal;
+}
+
+.navbar-brand {
+  font-size: 15px;
+
+}
+
+.navbar-brand:hover {
+  color: #0000ff;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: blue;
+}
+
+/*--------------------------------------------Section*/
+
+section {
+  margin-bottom: 5%;
+}
+
+.container-fluid {
+  margin-top: 25%;
+}
+
+.logo {
+  background: url("../images/LETILOGONOMBRE.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 200px;
+  transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  margin: 2em 0 0 8em 0;
+}
+
+
+
+/*--------------------------------------------Footer*/
+footer {
+  font-size: smaller;
+  background-color: #525252;
+  color: #fafafa;
+  min-height: 120px;
+  margin: 0;
+}
+
+.social-links {
+  padding-bottom: 10px;
+}
+
+.social-links li a i {
+  width: 25px;
+  height: 32px;
+  font-size: 13px;
+  line-height: 7px;
+  text-align: center;
+  color: #fafafa;
+  transition: all 0.20s ease-in-out;
+  -moz-transition: all 0.20s ease-in-out;
+  -webkit-transition: all 0.20s ease-in-out;
+  -o-transition: all 0.20s ease-in-out;
+}
+
+.social-links li a i:hover {
+  background: #0000ff;
+  padding: 12px 0;
+  border-radius: 50%;
+}
+
+#footer-details {
+  margin: 20px;
+}
+
+/*--------------------------------------------Contact*/
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+buttom[ type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #e84610;
+    color: #fafafa;
+}
